@@ -9,6 +9,7 @@ const landingPages = [
     link: "./lps/lp-gym/index.html",
     badge: "Novo",
     color: "#ff6b35",
+    image: "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
   },
 ];
 
@@ -17,12 +18,41 @@ let currentFilter = "all";
 // Initialize
 document.addEventListener("DOMContentLoaded", () => {
   initTheme();
+  renderStats();
   renderFilters();
   renderCards();
   setupFilters();
   setupScrollTop();
   setupThemeToggle();
 });
+
+// Render stats
+function renderStats() {
+  const statsContainer = document.getElementById("statsGrid");
+  if (!statsContainer) return;
+
+  const totalLPs = landingPages.length;
+  const categories = new Set(landingPages.map((lp) => lp.category)).size;
+
+  statsContainer.innerHTML = `
+    <div class="stat-item">
+      <span class="stat-number">${totalLPs}</span>
+      <span class="stat-label">Landing Pages</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">${categories}</span>
+      <span class="stat-label">Categorias</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">100%</span>
+      <span class="stat-label">Responsivo</span>
+    </div>
+    <div class="stat-item">
+      <span class="stat-number">∞</span>
+      <span class="stat-label">Em Expansão</span>
+    </div>
+  `;
+}
 
 // Generate filters dynamically based on LP categories
 function renderFilters() {
@@ -95,8 +125,10 @@ function renderCards() {
     .map(
       (lp) => `
     <div class="card" onclick="window.open('${lp.link}', '_blank')">
-      <div class="card-preview" style="background: linear-gradient(135deg, ${lp.color} 0%, ${lp.color}dd 100%);">
-        <div class="card-preview-placeholder">${lp.title.charAt(0)}</div>
+      <div class="card-preview" style="background-image: url('${lp.image || ""}'); background-size: cover; background-position: center; ${
+        !lp.image ? `background: linear-gradient(135deg, ${lp.color} 0%, ${lp.color}dd 100%);` : ""
+      }">
+        ${!lp.image ? `<div class="card-preview-placeholder">${lp.title.charAt(0)}</div>` : ""}
       </div>
       <div class="card-content">
         <div class="card-header">

@@ -699,6 +699,17 @@ body {
 @media (max-width: 768px) {
   .hero-section {
     padding: 40px 0 30px;
+    display: flex !important;
+    flex-direction: column !important;
+  }
+
+  .hero-content {
+    order: 1;
+  }
+
+  .hero-visual {
+    order: 2;
+    margin-top: 30px;
   }
 
   .hero-title {

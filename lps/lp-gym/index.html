@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- saved from url=(0054)# -->
-<html lang="zxx" data-lt-installed="true">
+<html lang="pt-BR" data-lt-installed="true">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <!-- Meta -->
@@ -11,9 +11,9 @@
     <meta name="keywords" content="" />
     <meta name="author" content="Awaiken" />
     <!-- Page Title -->
-    <title>Sellsmart - Single Product Landing page HTML Template</title>
+    <title>GYM - Produtos Inteligentes para Academia</title>
     <!-- Favicon Icon -->
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="./assets/images/favicon.png"> -->
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg" />
     <!-- Google Fonts Css-->
     <link rel="preconnect" href="https://fonts.googleapis.com/" />
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
@@ -53,54 +53,60 @@
         <nav class="navbar navbar-expand-lg">
           <div class="container">
             <!-- Logo Start -->
-            <a class="navbar-brand" href="#">GYM</a>
+            <a class="navbar-brand" href="#home">GYM</a>
             <!-- Logo End -->
 
             <!-- Main Menu Start -->
             <div class="collapse navbar-collapse main-menu">
               <div class="nav-menu-wrapper">
                 <ul class="navbar-nav mr-auto" id="menu">
-                  <li class="nav-item"><a class="nav-link" href="#index.html">Home</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#about.html">About Us</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#services.html">Services</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#features.html">Features</a></li>
-                  <li class="nav-item"><a class="nav-link" href="#contact.html">Contact Us</a></li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#home"><i class="fa-solid fa-home"></i> Início</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sobre"><i class="fa-solid fa-info-circle"></i> Sobre</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#beneficios"><i class="fa-solid fa-check-circle"></i> Benefícios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#servicos"><i class="fa-solid fa-briefcase"></i> Serviços</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contato"><i class="fa-solid fa-envelope"></i> Contato</a>
+                  </li>
                 </ul>
               </div>
 
               <!-- Header Contact Btn Start -->
               <div class="header-contact-btn">
-                <a href="##" class="btn-default btn-highlighted">Shop now</a>
+                <a href="#servicos" class="btn-default btn-highlighted">Comprar Agora</a>
               </div>
               <!-- Header Contact Btn End -->
             </div>
             <!-- Main Menu End -->
-            <div class="navbar-toggle">
-              <a href="##" aria-haspopup="true" role="button" tabindex="0" class="slicknav_btn slicknav_collapsed"
-                ><span class="slicknav_menutxt"></span
-                ><span class="slicknav_icon slicknav_no-text"
-                  ><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span
-              ></a>
-            </div>
+            <!-- Mobile Menu Toggle Button -->
+            <button class="navbar-toggler d-lg-none" type="button" id="mobileMenuToggle" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </button>
           </div>
         </nav>
         <div class="responsive-menu">
-          <div class="slicknav_menu">
-            <ul class="slicknav_nav slicknav_hidden" aria-hidden="true" role="menu">
-              <li class="nav-item"><a class="nav-link" href="#index.html" role="menuitem" tabindex="-1">Home</a></li>
-              <li class="nav-item"><a class="nav-link" href="#about.html" role="menuitem" tabindex="-1">About Us</a></li>
-              <li class="nav-item"><a class="nav-link" href="#services.html" role="menuitem" tabindex="-1">Services</a></li>
-              <li class="nav-item"><a class="nav-link" href="#features.html" role="menuitem" tabindex="-1">Features</a></li>
-              <li class="nav-item"><a class="nav-link" href="#contact.html" role="menuitem" tabindex="-1">Contact Us</a></li>
-            </ul>
-          </div>
+          <!-- SlickNav will automatically create the hamburger button here -->
         </div>
+        <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Fechar menu">
+          <i class="fa-solid fa-times"></i>
+        </button>
       </div>
     </header>
     <!-- Header End -->
 
     <!-- Hero Section Start -->
-    <div class="hero parallaxie dark-section">
+    <div id="home" class="hero parallaxie dark-section">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-7">
@@ -108,26 +114,26 @@
             <div class="hero-content">
               <!-- Section Title Start -->
               <div class="section-title">
-                <h3 class="wow fadeInUp smarter-gear"><i class="fa-solid fa-dumbbell"></i>Smarter Gear. Stronger You.</h3>
-                <h1 class="text-anime-style-3 wow fadeInUp" data-cursor="-opaque">Intelligent fitness tools that help you move smarter</h1>
+                <h3 class="wow fadeInUp smarter-gear"><i class="fa-solid fa-dumbbell"></i>Equipamentos Inteligentes. Você Mais Forte.</h3>
+                <h1 class="text-anime-style-3 wow fadeInUp" data-cursor="-opaque">Ferramentas de fitness inteligentes que ajudam você a se mover com mais inteligência</h1>
                 <p class="wow fadeInUp" data-wow-delay="0.2s">
-                  At the intersection of technology and fitness, we offer tools that do more than count steps—they empower transformation. Designed for modern athletes.
+                  Na interseção entre tecnologia e fitness, oferecemos ferramentas que vão além de contar passos—elas capacitam transformação. Projetadas para atletas modernos.
                 </p>
               </div>
               <!-- Section Title End -->
 
               <!-- Hero Button Start -->
               <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s">
-                <a href="#contact.html" class="btn-default btn-highlighted">Buy Now</a>
-                <a href="#contact.html" class="btn-default btn-border">View Services</a>
+                <a href="#contato" class="btn-default btn-highlighted">Comprar Agora</a>
+                <a href="#servicos" class="btn-default btn-border">Ver Serviços</a>
               </div>
               <!-- Hero Button End -->
 
               <!-- Hero List Start -->
               <div class="hero-list wow fadeInUp" data-wow-delay="0.6s">
                 <ul>
-                  <li>Real Results Start with Smart Tools</li>
-                  <li>Where Fitness Meets Innovation</li>
+                  <li>Resultados Reais Começam com Ferramentas Inteligentes</li>
+                  <li>Onde Fitness Encontra Inovação</li>
                 </ul>
               </div>
               <!-- Hero List End -->
@@ -177,7 +183,7 @@
     <!-- Scrolling Ticker Section End -->
 
     <!-- About Us Section Start -->
-    <div class="about-us">
+    <div id="sobre" class="about-us">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-5">
@@ -195,8 +201,8 @@
               <div class="about-info-box">
                 <!-- About Info Content Start -->
                 <div class="about-info-content">
-                  <h3>Empower Your Fitness Journey</h3>
-                  <p>Our technology - enhanced gadgets are engineered to help you get stronger, recover faster.</p>
+                  <h3>Potencialize Sua Jornada Fitness</h3>
+                  <p>Nossos gadgets com tecnologia avançada são projetados para ajudá-lo a ficar mais forte e se recuperar mais rápido.</p>
                 </div>
                 <!-- About Info Content End -->
 
@@ -208,7 +214,7 @@
                       <img src="./assets/images/icon-about-info-1.svg" alt="" />
                     </div>
                     <div class="about-info-item-content">
-                      <p>Real-Time Feedback</p>
+                      <p>Feedback em Tempo Real</p>
                     </div>
                   </div>
                   <!-- About Info Item End -->
@@ -219,7 +225,7 @@
                       <img src="./assets/images/icon-about-info-2.svg" alt="" />
                     </div>
                     <div class="about-info-item-content">
-                      <p>AI-Driven Insights</p>
+                      <p>Insights Impulsionados por IA</p>
                     </div>
                   </div>
                   <!-- About Info Item End -->
@@ -230,7 +236,7 @@
                       <img src="./assets/images/icon-about-info-3.svg" alt="" />
                     </div>
                     <div class="about-info-item-content">
-                      <p>Goal-Focused Design</p>
+                      <p>Design Focado em Objetivos</p>
                     </div>
                   </div>
                   <!-- About Info Item End -->
@@ -241,7 +247,7 @@
                       <img src="./assets/images/icon-about-info-4.svg" alt="" />
                     </div>
                     <div class="about-info-item-content">
-                      <p>Long-Lasting Battery</p>
+                      <p>Bateria de Longa Duração</p>
                     </div>
                   </div>
                   <!-- About Info Item End -->
@@ -258,11 +264,11 @@
             <div class="about-us-content">
               <!-- Section Title Start -->
               <div class="section-title">
-                <h3 class="wow fadeInUp smarter-gear"><i class="fa-solid fa-dumbbell"></i>Smarter Gear. Stronger You.</h3>
-                <h2 class="text-anime-style-3 wow fadeInUp" data-cursor="-opaque">Fitness meets future with every gadget</h2>
+                <h3 class="wow fadeInUp smarter-gear"><i class="fa-solid fa-dumbbell"></i>Equipamentos Inteligentes. Você Mais Forte.</h3>
+                <h2 class="text-anime-style-3 wow fadeInUp" data-cursor="-opaque">Fitness encontra o futuro com cada gadget</h2>
                 <p class="wow fadeInUp" data-wow-delay="0.2s">
-                  We're on a mission to revolutionize the gym experience. Our team of engineers, athletes, and designers develop fitness gear that goes beyond reps and sets. From
-                  AI coaching to biometric tracking, we deliver intelligent tools that put power in your hands.
+                  Estamos em uma missão para revolucionar a experiência na academia. Nossa equipe de engenheiros, atletas e designers desenvolve equipamentos de fitness que vão
+                  além de repetições e séries. De coaching por IA a rastreamento biométrico, entregamos ferramentas inteligentes que colocam o poder em suas mãos.
                 </p>
               </div>
               <!-- Section Title End -->
@@ -275,8 +281,8 @@
                     <img src="./assets/images/icon-about-body-1.svg" alt="" />
                   </div>
                   <div class="gadget-item-content">
-                    <h3>Your Partner in Progress</h3>
-                    <p>Every product we create is designed to help you stay consistent, stay strong.</p>
+                    <h3>Seu Parceiro no Progresso</h3>
+                    <p>Cada produto que criamos é projetado para ajudá-lo a se manter consistente e forte.</p>
                   </div>
                 </div>
                 <!-- About Gadget Item End -->
@@ -287,8 +293,8 @@
                     <img src="./assets/images/icon-about-body-2.svg" alt="" />
                   </div>
                   <div class="gadget-item-content">
-                    <h3>Empowering Every Athlete</h3>
-                    <p>From casual gym-goers to serious lifters, we create fitness solutions for all levels.</p>
+                    <h3>Capacitando Cada Atleta</h3>
+                    <p>De frequentadores casuais de academia a levantadores sérios, criamos soluções de fitness para todos os níveis.</p>
                   </div>
                 </div>
                 <!-- About Gadget Item End -->
@@ -298,15 +304,15 @@
               <!-- About Us List Start -->
               <div class="about-us-list wow fadeInUp" data-wow-delay="0.6s">
                 <ul>
-                  <li>Smarter fitness tools for real result</li>
-                  <li>Built to support your fitness goals</li>
+                  <li>Ferramentas de fitness inteligentes para resultados reais</li>
+                  <li>Construídas para apoiar seus objetivos de fitness</li>
                 </ul>
               </div>
               <!-- About Us List End -->
 
               <!-- About Button Start -->
               <div class="about-btn wow fadeInUp" data-wow-delay="0.8s">
-                <a href="#about.html" class="btn-default">more about</a>
+                <a href="#sobre" class="btn-default">saiba mais</a>
               </div>
               <!-- About Button End -->
             </div>
@@ -318,14 +324,14 @@
     <!-- About Us Section End -->
 
     <!-- Our Tools Section Start -->
-    <div class="our-tools">
+    <div id="ferramentas" class="our-tools">
       <div class="container">
         <div class="row section-row">
           <div class="col-lg-12">
             <!-- Section Title Start -->
             <div class="section-title section-title-center">
-              <h3 class="wow fadeInUp"><i class="fa-solid fa-list"></i>Discover Our Range</h3>
-              <h2 class="text-anime-style-3 wow fadeInUp" data-cursor="-opaque">High-tech Fitness tools For every step of your journey</h2>
+              <h3 class="wow fadeInUp"><i class="fa-solid fa-list"></i>Descubra Nossa Linha</h3>
+              <h2 class="text-anime-style-3 wow fadeInUp" data-cursor="-opaque">Ferramentas de Fitness de Alta Tecnologia Para Cada Etapa da Sua Jornada</h2>
             </div>
             <!-- Section Title End -->
           </div>
@@ -346,10 +352,10 @@
               <!-- Tools Item Body Start -->
               <div class="tools-item-body">
                 <div class="tools-item-content">
-                  <h3><a href="#contact.html">Strength Training Gadgets</a></h3>
+                  <h3><a href="#contato">Gadgets de Treino de Força</a></h3>
                 </div>
                 <div class="tools-btn">
-                  <a href="#contact.html"><img src="./assets/images/arrow-white.svg" alt="" /></a>
+                  <a href="#contato"><img src="./assets/images/arrow-white.svg" alt="" /></a>
                 </div>
               </div>
               <!-- Tools Item Body End -->
@@ -371,10 +377,10 @@
               <!-- Tools Item Body Start -->
               <div class="tools-item-body">
                 <div class="tools-item-content">
-                  <h3><a href="#contact.html">Body Monitoring Tools</a></h3>
+                  <h3><a href="#contato">Ferramentas de Monitoramento Corporal</a></h3>
                 </div>
                 <div class="tools-btn">
-                  <a href="#contact.html"><img src="./assets/images/arrow-white.svg" alt="" /></a>
+                  <a href="#contato"><img src="./assets/images/arrow-white.svg" alt="" /></a>
                 </div>
               </div>
               <!-- Tools Item Body End -->
@@ -396,10 +402,10 @@
               <!-- Tools Item Body Start -->
               <div class="tools-item-body">
                 <div class="tools-item-content">
-                  <h3><a href="#contact.html">Nutrition &amp; Health Trackers</a></h3>
+                  <h3><a href="#contato">Rastreadores de Nutrição e Saúde</a></h3>
                 </div>
                 <div class="tools-btn">
-                  <a href="#contact.html"><img src="./assets/images/arrow-white.svg" alt="" /></a>
+                  <a href="#contato"><img src="./assets/images/arrow-white.svg" alt="" /></a>
                 </div>
               </div>
               <!-- Tools Item Body End -->
@@ -421,10 +427,10 @@
               <!-- Tools Item Body Start -->
               <div class="tools-item-body">
                 <div class="tools-item-content">
-                  <h3><a href="#contact.html">Smart Training Equipment</a></h3>
+                  <h3><a href="#contato">Equipamentos de Treino Inteligentes</a></h3>
                 </div>
                 <div class="tools-btn">
-                  <a href="#contact.html"><img src="./assets/images/arrow-white.svg" alt="" /></a>
+                  <a href="#contato"><img src="./assets/images/arrow-white.svg" alt="" /></a>
                 </div>
               </div>
               <!-- Tools Item Body End -->
@@ -435,7 +441,7 @@
           <div class="col-lg-12">
             <!-- Section Footer Text Start -->
             <div class="section-footer-text wow fadeInUp" data-wow-delay="0.8s">
-              <p><span>Free</span>Where tech meets strength -<a href="#contact.html">performance-driven, sleek, and smart.</a></p>
+              <p><span>Grátis</span>Onde tecnologia encontra força -<a href="#contato">orientado ao desempenho, elegante e inteligente.</a></p>
             </div>
             <!-- Section Footer Text End -->
           </div>
@@ -445,7 +451,7 @@
     <!-- Our Tools Section End -->
 
     <!-- Why Choose Us Section Start -->
-    <div class="why-choose-us">
+    <div id="porque-escolher" class="why-choose-us">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6">
@@ -453,10 +459,11 @@
             <div class="why-choose-content">
               <!-- Section Title Start -->
               <div class="section-title">
-                <h3 class="wow fadeInUp"><i class="fa-solid fa-star"></i>Why Choose Us</h3>
-                <h2 class="text-anime-style-3 wow fadeInUp" data-cursor="-opaque">Smarter Fitness cracked by real innovation</h2>
+                <h3 class="wow fadeInUp"><i class="fa-solid fa-star"></i>Por Que Nos Escolher</h3>
+                <h2 class="text-anime-style-3 wow fadeInUp" data-cursor="-opaque">Fitness Inteligente Desbloqueado por Inovação Real</h2>
                 <p class="wow fadeInUp" data-wow-delay="0.2s">
-                  Our gadgets combine cutting-edge technology with user-focused design to help you train efficiently, recover faster, and track your progress with precision.
+                  Nossos gadgets combinam tecnologia de ponta com design focado no usuário para ajudá-lo a treinar com eficiência, se recuperar mais rápido e acompanhar seu
+                  progresso com precisão.
                 </p>
               </div>
               <!-- Section Title End -->
@@ -469,8 +476,8 @@
                     <img src="./assets/images/icon-why-choose-body-1.svg" alt="" />
                   </div>
                   <div class="why-choose-item-content">
-                    <h3>Precision-Driven Technology</h3>
-                    <p>Our gadgets are powered by advanced sensors and real-time feedback systems that help you perfect your form.</p>
+                    <h3>Tecnologia Orientada à Precisão</h3>
+                    <p>Nossos gadgets são alimentados por sensores avançados e sistemas de feedback em tempo real que ajudam você a aperfeiçoar sua forma.</p>
                   </div>
                 </div>
                 <!-- Why Choose Body Item End -->
@@ -481,8 +488,8 @@
                     <img src="./assets/images/icon-why-choose-body-2.svg" alt="" />
                   </div>
                   <div class="why-choose-item-content">
-                    <h3>Designed for Every Level of Athlete</h3>
-                    <p>Whether you're just starting your fitness journey or training at a competitive level, our smart devices adapt to your goals.</p>
+                    <h3>Projetado para Todos os Níveis de Atletas</h3>
+                    <p>Se você está apenas começando sua jornada de fitness ou treinando em nível competitivo, nossos dispositivos inteligentes se adaptam aos seus objetivos.</p>
                   </div>
                 </div>
                 <!-- Why Choose Body Item End -->
@@ -550,7 +557,7 @@
                       <span class="counter">4.9</span>
                     </div>
                     <div class="review-rating-content">
-                      <p>4.9 / 5 Ratings</p>
+                      <p>4.9 / 5 Avaliações</p>
                     </div>
                   </div>
                   <!-- Review Content End -->
@@ -573,14 +580,14 @@
     <!-- Why Choose Us Section End -->
 
     <!-- Our Benefits Section Start -->
-    <div class="our-benefits">
+    <div id="beneficios" class="our-benefits">
       <div class="container">
         <div class="row align-items-center section-row">
           <div class="col-lg-6">
             <!-- Section Title Start -->
             <div class="section-title">
-              <h3 class="wow fadeInUp"><i class="fa-solid fa-check-circle"></i>Our Benefits</h3>
-              <h2 class="text-anime-style-3 wow fadeInUp" data-cursor="-opaque">Tech-powered fitness that works with you</h2>
+              <h3 class="wow fadeInUp"><i class="fa-solid fa-check-circle"></i>Nossos Benefícios</h3>
+              <h2 class="text-anime-style-3 wow fadeInUp" data-cursor="-opaque">Fitness movido por tecnologia que trabalha com você</h2>
             </div>
             <!-- Section Title End -->
           </div>
@@ -591,15 +598,15 @@
               <!-- Section Title Content Start -->
               <div class="section-title-content wow fadeInUp" data-wow-delay="0.2s">
                 <p>
-                  We believe every workout should be optimized - that's why our smart fitness gadgets are engineered with cutting-edge technology and precision sensors, delivering
-                  real-time feedback and data to help you achieve your fitness goals faster.
+                  Acreditamos que cada treino deve ser otimizado - é por isso que nossos gadgets de fitness inteligentes são projetados com tecnologia de ponta e sensores de
+                  precisão, fornecendo feedback e dados em tempo real para ajudá-lo a alcançar seus objetivos de fitness mais rapidamente.
                 </p>
               </div>
               <!-- Section Title Content End -->
 
               <!-- Section Button Start -->
               <div class="section-btn wow fadeInUp" data-wow-delay="0.4s">
-                <a href="#contact.html" class="btn-default">contact us today!</a>
+                <a href="#contato" class="btn-default">entre em contato hoje!</a>
               </div>
               <!-- Section Button End -->
             </div>
@@ -617,11 +624,11 @@
                   <img src="./assets/images/icon-benefit-1.svg" alt="" />
                 </div>
                 <div class="benefit-item-content">
-                  <h3><a href="#features.html">Smarter Workouts</a></h3>
-                  <p>Improve form and low injury risk.</p>
+                  <h3><a href="#recursos">Treinos Mais Inteligentes</a></h3>
+                  <p>Melhore a forma e reduza o risco de lesões.</p>
                 </div>
                 <div class="benefit-item-btn">
-                  <a href="#features.html" class="readmore-btn">learn more</a>
+                  <a href="#recursos" class="readmore-btn">saiba mais</a>
                 </div>
               </div>
               <!-- Benefit Item End -->
@@ -632,11 +639,11 @@
                   <img src="./assets/images/icon-benefit-2.svg" alt="" />
                 </div>
                 <div class="benefit-item-content">
-                  <h3><a href="#features.html">Faster Recovery</a></h3>
-                  <p>Recover quicker with smart tools.</p>
+                  <h3><a href="#recursos">Recuperação Mais Rápida</a></h3>
+                  <p>Recupere-se mais rápido com ferramentas inteligentes.</p>
                 </div>
                 <div class="benefit-item-btn">
-                  <a href="#features.html" class="readmore-btn">learn more</a>
+                  <a href="#recursos" class="readmore-btn">saiba mais</a>
                 </div>
               </div>
               <!-- Benefit Item End -->
@@ -647,11 +654,11 @@
                   <img src="./assets/images/icon-benefit-3.svg" alt="" />
                 </div>
                 <div class="benefit-item-content">
-                  <h3><a href="#features.html">Easy Connectivity</a></h3>
-                  <p>Sync with apps and devices seamlessly.</p>
+                  <h3><a href="#recursos">Conectividade Fácil</a></h3>
+                  <p>Sincronize com apps e dispositivos perfeitamente.</p>
                 </div>
                 <div class="benefit-item-btn">
-                  <a href="#features.html" class="readmore-btn">learn more</a>
+                  <a href="#recursos" class="readmore-btn">saiba mais</a>
                 </div>
               </div>
               <!-- Benefit Item End -->
@@ -662,11 +669,11 @@
                   <img src="./assets/images/icon-benefit-4.svg" alt="" />
                 </div>
                 <div class="benefit-item-content">
-                  <h3><a href="#features.html">Built to Last</a></h3>
-                  <p>Durable, gym-ready, and sweat-proof.</p>
+                  <h3><a href="#recursos">Feito para Durar</a></h3>
+                  <p>Durável, pronto para academia e à prova de suor.</p>
                 </div>
                 <div class="benefit-item-btn">
-                  <a href="#features.html" class="readmore-btn">learn more</a>
+                  <a href="#recursos" class="readmore-btn">saiba mais</a>
                 </div>
               </div>
               <!-- Benefit Item End -->
@@ -677,11 +684,11 @@
                   <img src="./assets/images/icon-benefit-5.svg" alt="" />
                 </div>
                 <div class="benefit-item-content">
-                  <h3><a href="#features.html">Modern Design</a></h3>
-                  <p>Looks as good as it performs.</p>
+                  <h3><a href="#recursos">Design Moderno</a></h3>
+                  <p>Tão bonito quanto performático.</p>
                 </div>
                 <div class="benefit-item-btn">
-                  <a href="#features.html" class="readmore-btn">learn more</a>
+                  <a href="#recursos" class="readmore-btn">saiba mais</a>
                 </div>
               </div>
               <!-- Benefit Item End -->
@@ -692,7 +699,7 @@
           <div class="col-lg-12">
             <!-- Section Footer Text Start -->
             <div class="section-footer-text wow fadeInUp" data-wow-delay="1s">
-              <p>Where tech meets strength -<a href="#contact.html">performance-driven, sleek, and smart.</a></p>
+              <p>Onde tecnologia encontra força -<a href="#contato">orientado ao desempenho, elegante e inteligente.</a></p>
             </div>
             <!-- Section Footer Text End -->
           </div>
@@ -706,16 +713,16 @@
       <!-- Scrolling Ticker Start -->
       <div class="scrolling-ticker-box">
         <div class="scrolling-content">
-          <span><img src="./assets/images/icon-dumbbell.svg" alt="" />Sale - Limited Time Only! Shop Now</span>
+          <span><img src="./assets/images/icon-dumbbell.svg" alt="" />Promoção - Por Tempo Limitado! Compre Agora</span>
           <span><img src="./assets/images/icon-dumbbell.svg" alt="" />Exclusive Fitness Gadgets</span>
-          <span><img src="./assets/images/icon-dumbbell.svg" alt="" />Sale - Limited Time Only! Shop Now</span>
+          <span><img src="./assets/images/icon-dumbbell.svg" alt="" />Promoção - Por Tempo Limitado! Compre Agora</span>
           <span><img src="./assets/images/icon-dumbbell.svg" alt="" />Exclusive Fitness Gadgets</span>
         </div>
 
         <div class="scrolling-content">
-          <span><img src="./assets/images/icon-dumbbell.svg" alt="" />Sale - Limited Time Only! Shop Now</span>
+          <span><img src="./assets/images/icon-dumbbell.svg" alt="" />Promoção - Por Tempo Limitado! Compre Agora</span>
           <span><img src="./assets/images/icon-dumbbell.svg" alt="" />Exclusive Fitness Gadgets</span>
-          <span><img src="./assets/images/icon-dumbbell.svg" alt="" />Sale - Limited Time Only! Shop Now</span>
+          <span><img src="./assets/images/icon-dumbbell.svg" alt="" />Promoção - Por Tempo Limitado! Compre Agora</span>
           <span><img src="./assets/images/icon-dumbbell.svg" alt="" />Exclusive Fitness Gadgets</span>
         </div>
       </div>
@@ -723,14 +730,14 @@
     <!-- Scrolling Ticker Section End -->
 
     <!-- Our Services Section Start -->
-    <div class="our-products">
+    <div id="servicos" class="our-products">
       <div class="container">
         <div class="row section-row align-items-center">
           <div class="col-lg-6">
             <!-- Section Title Start -->
             <div class="section-title">
-              <h3 class="wow fadeInUp"><i class="fa-solid fa-briefcase"></i>Our Services</h3>
-              <h2 class="text-anime-style-3 wow fadeInUp" data-cursor="-opaque">Trainharder,smarter,andsaFerwithourproducts</h2>
+              <h3 class="wow fadeInUp"><i class="fa-solid fa-briefcase"></i>Nossos Serviços</h3>
+              <h2 class="text-anime-style-3 wow fadeInUp" data-cursor="-opaque">Treine mais forte, mais inteligente e mais seguro com nossos produtos</h2>
             </div>
             <!-- Section Title End -->
           </div>
@@ -738,7 +745,7 @@
           <div class="col-lg-6">
             <!-- Section Button Start -->
             <div class="section-btn">
-              <a href="##" class="btn-default">View All Services</a>
+              <a href="#servicos" class="btn-default">Ver Todos os Serviços</a>
             </div>
             <!-- Section Button End -->
           </div>
@@ -751,9 +758,9 @@
               <!-- Product image Start -->
               <div class="product-image">
                 <div class="product-sale-title">
-                  <p>sale</p>
+                  <p>promoção</p>
                 </div>
-                <a href="##">
+                <a href="#servicos">
                   <figure>
                     <img src="./assets/images/product-1.png" alt="" />
                   </figure>
@@ -764,7 +771,7 @@
               <!-- Product Item Body Start -->
               <div class="product-item-body">
                 <div class="product-content">
-                  <h3><a href="##">PulseBand X1</a></h3>
+                  <h3><a href="#servicos">PulseBand X1</a></h3>
                   <div class="product-rating">
                     <p><i class="fa-solid fa-star"></i> (4.9)</p>
                   </div>
@@ -783,7 +790,7 @@
             <div class="product-item wow fadeInUp" data-wow-delay="0.2s">
               <!-- Product image Start -->
               <div class="product-image">
-                <a href="##">
+                <a href="#servicos">
                   <figure>
                     <img src="./assets/images/product-2.png" alt="" />
                   </figure>
@@ -794,7 +801,7 @@
               <!-- Product Item Body Start -->
               <div class="product-item-body">
                 <div class="product-content">
-                  <h3><a href="##">PowerBell Smart</a></h3>
+                  <h3><a href="#servicos">PowerBell Smart</a></h3>
                   <div class="product-rating">
                     <p><i class="fa-solid fa-star"></i> (4.9)</p>
                   </div>
@@ -814,9 +821,9 @@
               <!-- Product image Start -->
               <div class="product-image">
                 <div class="product-sale-title">
-                  <p>sale</p>
+                  <p>promoção</p>
                 </div>
-                <a href="##">
+                <a href="#servicos">
                   <figure>
                     <img src="./assets/images/product-3.png" alt="" />
                   </figure>
@@ -827,7 +834,7 @@
               <!-- Product Item Body Start -->
               <div class="product-item-body">
                 <div class="product-content">
-                  <h3><a href="##">RunCore Ultra</a></h3>
+                  <h3><a href="#servicos">RunCore Ultra</a></h3>
                   <div class="product-rating">
                     <p><i class="fa-solid fa-star"></i> (4.9)</p>
                   </div>
@@ -846,7 +853,7 @@
             <div class="product-item wow fadeInUp" data-wow-delay="0.6s">
               <!-- Product image Start -->
               <div class="product-image">
-                <a href="##">
+                <a href="#servicos">
                   <figure>
                     <img src="./assets/images/product-4.png" alt="" />
                   </figure>
@@ -857,7 +864,7 @@
               <!-- Product Item Body Start -->
               <div class="product-item-body">
                 <div class="product-content">
-                  <h3><a href="##">PowerBell Smart</a></h3>
+                  <h3><a href="#servicos">PowerBell Smart</a></h3>
                   <div class="product-rating">
                     <p><i class="fa-solid fa-star"></i> (4.9)</p>
                   </div>
@@ -903,7 +910,7 @@
     <!-- Intro Video Section End -->
 
     <!-- Our Features Section Start -->
-    <div class="our-features">
+    <div id="recursos" class="our-features">
       <div class="container">
         <div class="row section-row align-items-center">
           <div class="col-lg-7">
@@ -911,17 +918,17 @@
             <div class="our-features-content">
               <!-- Section Title Start -->
               <div class="section-title">
-                <h3 class="wow fadeInUp"><i class="fa-solid fa-gear"></i>Our Features</h3>
-                <h2 class="text-anime-style-3 wow fadeInUp" data-cursor="-opaque">Innovative features that help you train smarter every day</h2>
+                <h3 class="wow fadeInUp"><i class="fa-solid fa-gear"></i>Nossos Recursos</h3>
+                <h2 class="text-anime-style-3 wow fadeInUp" data-cursor="-opaque">Recursos inovadores que ajudam você a treinar com mais inteligência todos os dias</h2>
                 <p class="wow fadeInUp" data-wow-delay="0.2s">
-                  Our smart fitness gear goes beyond basic tracking—it gives you real feedback, meaningful data, and the power to improve.
+                  Nossos equipamentos de fitness inteligentes vão além do rastreamento básico—eles fornecem feedback real, dados significativos e o poder de melhorar.
                 </p>
               </div>
               <!-- Section Title End -->
 
               <!-- Our Features Button Start -->
               <div class="our-features-btn wow fadeInUp" data-wow-delay="0.4s">
-                <a href="#contact.html" class="btn-default">contact us today!</a>
+                <a href="#contato" class="btn-default">entre em contato hoje!</a>
               </div>
               <!-- Our Features Button End -->
             </div>
@@ -952,14 +959,14 @@
                   </div>
 
                   <div class="features-item-title">
-                    <h3>Real-Time Tracking &amp; Feedback</h3>
+                    <h3>Rastreamento e Feedback em Tempo Real</h3>
                   </div>
                 </div>
                 <!-- Features Item Header End -->
 
                 <!-- Features Item Body Start -->
                 <div class="features-item-body">
-                  <p>Monitor your workout it happens with precision sensors that deliver instant stats like heart rate.</p>
+                  <p>Monitore seu treino enquanto acontece com sensores de precisão que fornecem estatísticas instantâneas como frequência cardíaca.</p>
                 </div>
                 <!-- Features Item Body End -->
               </div>
@@ -974,14 +981,14 @@
                   </div>
 
                   <div class="features-item-title">
-                    <h3>Real-Time Tracking &amp; Feedback</h3>
+                    <h3>Análise de Dados Avançada</h3>
                   </div>
                 </div>
                 <!-- Features Item Header End -->
 
                 <!-- Features Item Body Start -->
                 <div class="features-item-body">
-                  <p>Monitor your workout as it happen with precision sensor that deliver instant stat like heart rate.</p>
+                  <p>Obtenha insights profundos sobre seu desempenho com análises detalhadas e relatórios personalizados.</p>
                 </div>
                 <!-- Features Item Body End -->
               </div>
@@ -996,14 +1003,14 @@
                   </div>
 
                   <div class="features-item-title">
-                    <h3>AI-Enhanced Coaching &amp; Training Support</h3>
+                    <h3>Coaching e Suporte de Treino Aprimorados por IA</h3>
                   </div>
                 </div>
                 <!-- Features Item Header End -->
 
                 <!-- Features Item Body Start -->
                 <div class="features-item-body">
-                  <p>Our intelligent systems provide adaptive guidance, suggest form corrections.</p>
+                  <p>Nossos sistemas inteligentes fornecem orientação adaptativa e sugerem correções de forma.</p>
                 </div>
                 <!-- Features Item Body End -->
               </div>
@@ -1018,14 +1025,14 @@
                   </div>
 
                   <div class="features-item-title">
-                    <h3>Sleek, Portable, and Durable Design</h3>
+                    <h3>Design Elegante, Portátil e Durável</h3>
                   </div>
                 </div>
                 <!-- Features Item Header End -->
 
                 <!-- Features Item Body Start -->
                 <div class="features-item-body">
-                  <p>Our gadgets are compact enough to fit in your gym bag, durable enough for workouts.</p>
+                  <p>Nossos gadgets são compactos o suficiente para caber na sua bolsa de academia e duráveis o suficiente para treinos intensos.</p>
                 </div>
                 <!-- Features Item Body End -->
               </div>
@@ -1047,13 +1054,13 @@
 
                 <!-- Feautures Offer Item Content Start -->
                 <div class="features-offer-item-content">
-                  <p>Limited Time Offers</p>
-                  <h3>Special Discounts on Your Favorite Gear</h3>
-                  <p>Get smart gadgets at smart prices. These deals are exclusive, limited.</p>
+                  <p>Ofertas por Tempo Limitado</p>
+                  <h3>Descontos Especiais em Seus Equipamentos Favoritos</h3>
+                  <p>Obtenha gadgets inteligentes a preços inteligentes. Essas ofertas são exclusivas e limitadas.</p>
                 </div>
                 <!-- Feautures Offer Item Content End -->
                 <div class="features-offer-item-btn">
-                  <a href="#contact.html" class="btn-default btn-highlighted">shop now</a>
+                  <a href="#contato" class="btn-default btn-highlighted">comprar agora</a>
                 </div>
               </div>
               <!-- Feautures Offer Item End -->
@@ -1068,13 +1075,13 @@
 
                 <!-- Feautures Offer Item Content Start -->
                 <div class="features-offer-item-content">
-                  <p>Don't Miss Out!</p>
-                  <h3>High-Performance Gadgets. Low-Limited Prices.</h3>
-                  <p>Stock is limited, so act fast and level up your workouts for less.</p>
+                  <p>Não Perca!</p>
+                  <h3>Gadgets de Alto Desempenho. Preços Baixos e Limitados.</h3>
+                  <p>O estoque é limitado, então aja rápido e eleve seus treinos por menos.</p>
                 </div>
                 <!-- Feautures Offer Item Content End -->
                 <div class="features-offer-item-btn">
-                  <a href="#contact.html" class="btn-default btn-highlighted">shop now</a>
+                  <a href="#contato" class="btn-default btn-highlighted">comprar agora</a>
                 </div>
               </div>
               <!-- Feautures Offer Item End -->
@@ -1091,8 +1098,8 @@
                   <img src="./assets/images/icon-facility-1.svg" alt="" />
                 </div>
                 <div class="our-facility-content">
-                  <h3>Free Shipping</h3>
-                  <p>Lorem Ipsum Dollar Amet</p>
+                  <h3>Frete Grátis</h3>
+                  <p>Entrega rápida e segura</p>
                 </div>
               </div>
               <!-- Our Facility Item End -->
@@ -1103,8 +1110,8 @@
                   <img src="./assets/images/icon-facility-2.svg" alt="" />
                 </div>
                 <div class="our-facility-content">
-                  <h3>Best Prices</h3>
-                  <p>Lorem Ipsum Dollar Amet</p>
+                  <h3>Melhores Preços</h3>
+                  <p>Ofertas exclusivas e competitivas</p>
                 </div>
               </div>
               <!-- Our Facility Item End -->
@@ -1115,8 +1122,8 @@
                   <img src="./assets/images/icon-facility-3.svg" alt="" />
                 </div>
                 <div class="our-facility-content">
-                  <h3>Safe Payment</h3>
-                  <p>Lorem Ipsum Dollar Amet</p>
+                  <h3>Pagamento Seguro</h3>
+                  <p>Transações protegidas e criptografadas</p>
                 </div>
               </div>
               <!-- Our Facility Item End -->
@@ -1128,7 +1135,7 @@
                 </div>
                 <div class="our-facility-content">
                   <h3>100% Original</h3>
-                  <p>Lorem Ipsum Dollar Amet</p>
+                  <p>Produtos autênticos e garantidos</p>
                 </div>
               </div>
               <!-- Our Facility Item End -->
@@ -1153,8 +1160,8 @@
                 <div class="process-content-wap">
                   <div class="process-inner-content-wap">
                     <img src="./assets/images/icon-interactive-1.svg" alt="" />
-                    <h2><a href="##">AI Coaching &amp; Modern Work</a></h2>
-                    <p>Get personalized tips, form corrections, and workout recommendations.</p>
+                    <h2>Coaching por IA e Trabalho Moderno</h2>
+                    <p>Obtenha dicas personalizadas, correções de forma e recomendações de treino.</p>
                   </div>
                 </div>
               </div>
@@ -1167,8 +1174,8 @@
                 <div class="process-content-wap">
                   <div class="process-inner-content-wap">
                     <img src="./assets/images/icon-interactive-2.svg" alt="" />
-                    <h2><a href="##">Real-Time Performnce Track</a></h2>
-                    <p>Stay on top of your workouts with instant feedback on reps, heart rate, calories.</p>
+                    <h2>Rastreamento de Desempenho em Tempo Real</h2>
+                    <p>Mantenha-se no topo dos seus treinos com feedback instantâneo sobre repetições, frequência cardíaca e calorias.</p>
                   </div>
                 </div>
               </div>
@@ -1181,8 +1188,8 @@
                 <div class="process-content-wap">
                   <div class="process-inner-content-wap">
                     <img src="./assets/images/icon-interactive-3.svg" alt="" />
-                    <h2><a href="##">Next-Gen Smart Connectivity</a></h2>
-                    <p>All your health data and conveniently for connected and stored in one places.</p>
+                    <h2>Conectividade Inteligente de Nova Geração</h2>
+                    <p>Todos os seus dados de saúde conectados e armazenados convenientemente em um só lugar.</p>
                   </div>
                 </div>
               </div>
@@ -1195,8 +1202,8 @@
                 <div class="process-content-wap">
                   <div class="process-inner-content-wap">
                     <img src="./assets/images/icon-interactive-4.svg" alt="" />
-                    <h2><a href="##">Compact &amp; Portable Designs</a></h2>
-                    <p>Train anywhere and anytime. Our sleek and light devices are made for home.</p>
+                    <h2>Designs Compactos e Portáteis</h2>
+                    <p>Treine em qualquer lugar e a qualquer hora. Nossos dispositivos elegantes e leves são feitos para casa.</p>
                   </div>
                 </div>
               </div>
@@ -1270,7 +1277,7 @@
                   </div>
                 </div>
                 <!-- Review Images End -->
-                <p>Trusted from our 15k+ client support</p>
+                <p>Confiado por mais de 15 mil clientes</p>
               </div>
               <!-- Faqs CTA Box End -->
             </div>
@@ -1282,11 +1289,11 @@
             <div class="faqs-content">
               <!-- Section Title Start -->
               <div class="section-title">
-                <h3 class="wow fadeInUp"><i class="fa-solid fa-question-circle"></i>Frequently Asked Questions</h3>
-                <h2 class="text-anime-style-3 wow fadeInUp" data-cursor="-opaque">ExploreourmostFrequentlyaskedquestions</h2>
+                <h3 class="wow fadeInUp"><i class="fa-solid fa-question-circle"></i>Perguntas Frequentes</h3>
+                <h2 class="text-anime-style-3 wow fadeInUp" data-cursor="-opaque">Explore nossas perguntas mais frequentes</h2>
                 <p>
-                  Whether you're wondering how to sync your device, track performance, or start a return - this section covers everything you need to know to use our gadgets with
-                  confidence.
+                  Se você está se perguntando como sincronizar seu dispositivo, rastrear o desempenho ou iniciar uma devolução - esta seção cobre tudo o que você precisa saber para
+                  usar nossos gadgets com confiança.
                 </p>
               </div>
               <!-- Section Title End -->
@@ -1297,13 +1304,14 @@
                 <div class="accordion-item wow fadeInUp">
                   <h2 class="accordion-header" id="heading1">
                     <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                      Q1. How do I connect my gym gadget to the mobile app?
+                      P1. Como conecto meu gadget de academia ao aplicativo móvel?
                     </button>
                   </h2>
                   <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordion">
                     <div class="accordion-body">
                       <p>
-                        Simply download our official app from the App Store or Google Play, create an account, and follow the pairing instructions in the "Device Setup" section.
+                        Simplesmente baixe nosso aplicativo oficial na App Store ou Google Play, crie uma conta e siga as instruções de emparelhamento na seção "Configuração do
+                        Dispositivo".
                       </p>
                     </div>
                   </div>
@@ -1314,13 +1322,14 @@
                 <div class="accordion-item wow fadeInUp" data-wow-delay="0.2s">
                   <h2 class="accordion-header" id="heading2">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
-                      Q2. What is included in the product package?
+                      P2. O que está incluído no pacote do produto?
                     </button>
                   </h2>
                   <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="heading2" data-bs-parent="#accordion">
                     <div class="accordion-body">
                       <p>
-                        Simply download our official app from the App Store or Google Play, create an account, and follow the pairing instructions in the "Device Setup" section.
+                        Cada pacote inclui o dispositivo principal, cabo de carregamento, manual do usuário e garantia de 1 ano. Alguns produtos também incluem acessórios
+                        adicionais conforme especificado na descrição do produto.
                       </p>
                     </div>
                   </div>
@@ -1331,13 +1340,14 @@
                 <div class="accordion-item wow fadeInUp" data-wow-delay="0.4s">
                   <h2 class="accordion-header" id="heading3">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-                      Q3. How do I know which product is right for me?
+                      P3. Como sei qual produto é certo para mim?
                     </button>
                   </h2>
                   <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="heading3" data-bs-parent="#accordion">
                     <div class="accordion-body">
                       <p>
-                        Simply download our official app from the App Store or Google Play, create an account, and follow the pairing instructions in the "Device Setup" section.
+                        Recomendamos verificar nossa seção de produtos e comparar os recursos de cada dispositivo com seus objetivos de fitness. Nossa equipe de suporte também está
+                        disponível para ajudá-lo a escolher o produto ideal para suas necessidades.
                       </p>
                     </div>
                   </div>
@@ -1348,13 +1358,14 @@
                 <div class="accordion-item wow fadeInUp" data-wow-delay="0.6s">
                   <h2 class="accordion-header" id="heading4">
                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-                      Q4. What is your return and warranty policy?
+                      P4. Qual é sua política de devolução e garantia?
                     </button>
                   </h2>
                   <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordion">
                     <div class="accordion-body">
                       <p>
-                        Simply download our official app from the App Store or Google Play, create an account, and follow the pairing instructions in the "Device Setup" section.
+                        Oferecemos garantia de 1 ano em todos os produtos e política de devolução de 30 dias. Se você não estiver satisfeito, pode devolver o produto em sua
+                        embalagem original para reembolso total.
                       </p>
                     </div>
                   </div>
@@ -1371,14 +1382,14 @@
     <!-- Our Faqs Setion End -->
 
     <!-- Our Testimonials Section Start -->
-    <div class="our-testimonials dark-section parallaxie">
+    <div id="depoimentos" class="our-testimonials dark-section parallaxie">
       <div class="container">
         <div class="row section-row">
           <div class="col-lg-12">
             <!-- Section Title Start -->
             <div class="section-title section-title-center">
-              <h3 class="wow fadeInUp">Our Testimonials</h3>
-              <h2 class="text-anime-style-3 wow fadeInUp" data-cursor="-opaque">HearhowoursmartFitnesstechischanginglives</h2>
+              <h3 class="wow fadeInUp">Nossos Depoimentos</h3>
+              <h2 class="text-anime-style-3 wow fadeInUp" data-cursor="-opaque">Ouça como nossa tecnologia de fitness inteligente está mudando vidas</h2>
             </div>
             <!-- Section Title End -->
           </div>
@@ -1389,7 +1400,7 @@
             <!-- Testimonial Slider Start -->
             <div class="testimonial-slider">
               <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
-                <div class="swiper-wrapper" data-cursor-text="Drag" id="swiper-wrapper-6ec463fc627c7e4e" aria-live="off">
+                <div class="swiper-wrapper" data-cursor-text="Arrastar" id="swiper-wrapper-6ec463fc627c7e4e" aria-live="off">
                   <!-- Testimonial Slide Start -->
 
                   <!-- Testimonial Slide End -->
@@ -1402,8 +1413,8 @@
                       </div>
                       <div class="testimonial-content">
                         <p>
-                          I've tried dozens of fitness tools, but the smart dumbbells from GymX completely changed how I train clients. The real-time data tracking is incredibly
-                          accurate, and the adjustable weight feature is a time-saver. This is the future of training.
+                          Experimentei dezenas de ferramentas de fitness, mas os halteres inteligentes da GYM mudaram completamente a forma como treino meus clientes. O
+                          rastreamento de dados em tempo real é incrivelmente preciso, e o recurso de peso ajustável economiza muito tempo. Este é o futuro do treinamento.
                         </p>
                       </div>
                       <div class="author-info">
@@ -1420,7 +1431,7 @@
                           <i class="fa-solid fa-star"></i>
                         </div>
                         <div class="author-content">
-                          <h3>liya allen, manager</h3>
+                          <h3>Liya Allen, Gerente</h3>
                         </div>
                       </div>
                     </div>
@@ -1433,8 +1444,8 @@
                       </div>
                       <div class="testimonial-content">
                         <p>
-                          I've tried dozens of fitness tools, but the smart dumbbells from GymX completely changed how I train clients. The real-time data tracking is incredibly
-                          accurate, and the adjustable weight feature is a time-saver. This is the future of training.
+                          Como desenvolvedor, valorizo tecnologia que realmente funciona. Os produtos da GYM não apenas entregam o que prometem, mas superam minhas expectativas. A
+                          interface do aplicativo é intuitiva e os dados são precisos. Recomendo totalmente!
                         </p>
                       </div>
                       <div class="author-info">
@@ -1451,15 +1462,15 @@
                           <i class="fa-solid fa-star"></i>
                         </div>
                         <div class="author-content">
-                          <h3>wade l warren, developer</h3>
+                          <h3>Wade L. Warren, Desenvolvedor</h3>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="testimonial-btn">
-                  <div class="testimonial-btn-prev" tabindex="0" role="button" aria-label="Previous slide" aria-controls="swiper-wrapper-6ec463fc627c7e4e"></div>
-                  <div class="testimonial-btn-next" tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-6ec463fc627c7e4e"></div>
+                  <div class="testimonial-btn-prev" tabindex="0" role="button" aria-label="Slide anterior" aria-controls="swiper-wrapper-6ec463fc627c7e4e"></div>
+                  <div class="testimonial-btn-next" tabindex="0" role="button" aria-label="Próximo slide" aria-controls="swiper-wrapper-6ec463fc627c7e4e"></div>
                 </div>
                 <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
               </div>
@@ -1472,7 +1483,7 @@
     <!-- Our Testimonials Section End -->
 
     <!-- Footer Main Start -->
-    <footer class="footer-main">
+    <footer id="contato" class="footer-main">
       <div class="container">
         <div class="row">
           <div class="col-lg-12">
@@ -1486,25 +1497,27 @@
 
                 <!-- About Footer Content Start -->
                 <div class="about-footer-content">
-                  <p>Were on a mission to revolutionize the gym. Our team of engineers. We're on a mission to revolutionize.</p>
+                  <p>
+                    Estamos em uma missão para revolucionar a academia. Nossa equipe de engenheiros, atletas e designers desenvolve equipamentos de fitness que transformam vidas.
+                  </p>
                 </div>
                 <!-- About Footer Content End -->
 
                 <!-- Footer Social Links Start -->
                 <div class="footer-social-links">
-                  <h3>social media</h3>
+                  <h3>redes sociais</h3>
                   <ul>
                     <li>
-                      <a href="##"><i class="fa-brands fa-facebook-f"></i></a>
+                      <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-facebook-f"></i></a>
                     </li>
                     <li>
-                      <a href="##"><i class="fa-brands fa-dribbble"></i></a>
+                      <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-dribbble"></i></a>
                     </li>
                     <li>
-                      <a href="##"><i class="fa-brands fa-instagram"></i></a>
+                      <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-instagram"></i></a>
                     </li>
                     <li>
-                      <a href="##"><i class="fa-brands fa-linkedin-in"></i></a>
+                      <a href="#" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin-in"></i></a>
                     </li>
                   </ul>
                 </div>
@@ -1519,14 +1532,14 @@
                   <!-- Footer Contact Item Start -->
                   <div class="footer-contact-item">
                     <div class="footer-contact-title">
-                      <h3>Contact Us</h3>
+                      <h3>Entre em Contato</h3>
                     </div>
                     <div class="footer-contact-box">
                       <div class="icon-box">
                         <img src="./assets/images/icon-phone.svg" alt="" />
                       </div>
                       <div class="footer-contact-content">
-                        <h4>Phone Number</h4>
+                        <h4>Telefone</h4>
                         <p><a href="tel:+123456789">+(123) 456-7890</a></p>
                       </div>
                     </div>
@@ -1536,7 +1549,7 @@
                   <!-- Footer Contact Item Start -->
                   <div class="footer-contact-item">
                     <div class="footer-contact-title">
-                      <h3>Email Address</h3>
+                      <h3>Endereço de Email</h3>
                     </div>
                     <div class="footer-contact-box">
                       <div class="icon-box">
@@ -1553,14 +1566,14 @@
                   <!-- Footer Contact Item Start -->
                   <div class="footer-contact-item">
                     <div class="footer-contact-title">
-                      <h3>Our Address</h3>
+                      <h3>Nosso Endereço</h3>
                     </div>
                     <div class="footer-contact-box">
                       <div class="icon-box">
                         <img src="./assets/images/icon-location.svg" alt="" />
                       </div>
                       <div class="footer-contact-content">
-                        <h4>Address</h4>
+                        <h4>Endereço</h4>
                         <p>1901 Thornridge Shiloh, Hawaii 81</p>
                       </div>
                     </div>
@@ -1573,35 +1586,35 @@
                 <div class="footer-links-list">
                   <!-- Footer Links Start -->
                   <div class="footer-links">
-                    <h3>Quick link</h3>
+                    <h3>Links Rápidos</h3>
                     <ul>
-                      <li><a href="#index.html">home</a></li>
-                      <li><a href="#about.html">about us</a></li>
-                      <li><a href="#features.html">features</a></li>
-                      <li><a href="#contact.html">contact us</a></li>
+                      <li><a href="#home">início</a></li>
+                      <li><a href="#sobre">sobre nós</a></li>
+                      <li><a href="#recursos">recursos</a></li>
+                      <li><a href="#contato">contato</a></li>
                     </ul>
                   </div>
                   <!-- Footer Links End -->
 
                   <!-- Footer Links Start -->
                   <div class="footer-links">
-                    <h3>Features</h3>
+                    <h3>Recursos</h3>
                     <ul>
-                      <li><a href="##">Real-Time Tracking</a></li>
-                      <li><a href="##">Seamless App</a></li>
-                      <li><a href="##">AI-Enhance</a></li>
-                      <li><a href="##">Sleek, Portable</a></li>
+                      <li><a href="#recursos">Rastreamento em Tempo Real</a></li>
+                      <li><a href="#recursos">App Perfeito</a></li>
+                      <li><a href="#recursos">Aprimorado por IA</a></li>
+                      <li><a href="#recursos">Elegante e Portátil</a></li>
                     </ul>
                   </div>
                   <!-- Footer Links End -->
 
                   <!-- Footer Newsletter Form Start -->
                   <div class="footer-newsletter-form">
-                    <h3>Subscribe To Our Newsletter!</h3>
-                    <p>We're on a mission to revolutionize the gym. We're on a mission to revolutionize the gym.</p>
+                    <h3>Inscreva-se na Nossa Newsletter!</h3>
+                    <p>Estamos em uma missão para revolucionar a academia. Receba as últimas novidades e ofertas exclusivas.</p>
                     <form id="newsletterForm" action="##" method="POST">
                       <div class="form-group">
-                        <input type="email" name="mail" class="form-control" id="mail" placeholder="Enter Your E-mail Address" required="" />
+                        <input type="email" name="mail" class="form-control" id="mail" placeholder="Digite Seu Endereço de Email" required="" />
                         <button type="submit" class="newsletter-btn"><img src="./assets/images/arrow-accent.svg" alt="" /></button>
                       </div>
                     </form>
@@ -1616,7 +1629,7 @@
 
             <!-- Footer Copyright Text Start -->
             <div class="footer-copyright-text">
-              <p>Copyright © 2025 All Rights Reserved.</p>
+              <p>Copyright © 2025 Todos os Direitos Reservados.</p>
             </div>
             <!-- Footer Copyright Text End -->
           </div>

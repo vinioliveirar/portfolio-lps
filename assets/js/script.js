@@ -184,7 +184,7 @@ function updateCardsContent(grid, filtered) {
         </div>
         <div class="card-description">${lp.description}</div>
         <div class="card-footer">
-          <a href="${lp.link}" class="card-link" onclick="event.stopPropagation();">Ver LP →</a>
+          <a href="${lp.link}" class="card-link" target="_blank" rel="noopener noreferrer" onclick="event.stopPropagation();">Ver LP →</a>
         </div>
       </div>
     </div>

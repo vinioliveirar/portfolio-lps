@@ -31,6 +31,26 @@ const landingPages = [
     color: "#6366f1",
     image: "./assets/images/todo-list.png",
   },
+  {
+    id: 4,
+    title: "Pomodoro Timer PWA",
+    category: "saas",
+    categories: ["PWA", "Produtividade"],
+    description: "Aplicação PWA de Pomodoro Timer com lista de tarefas integrada, design moderno e funcionalidades completas de produtividade.",
+    link: "https://pomodorotimer-pwa.netlify.app/",
+    color: "#4f46e5",
+    image: "./assets/images/pomodoro-timer.png",
+  },
+  {
+    id: 5,
+    title: "Gerador de Orçamentos",
+    category: "business",
+    categories: ["Aplicação Web", "Negócios"],
+    description: "Sistema completo para geração de orçamentos online com criação de PDF customizado, gestão de produtos e informações do cliente.",
+    link: "https://gerador-de-orcamento-blank.vercel.app/",
+    color: "#2563eb",
+    image: "./assets/images/gerador-orcamento.png",
+  },
 ];
 
 let currentFilter = "all";

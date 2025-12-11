@@ -1,4 +1,4 @@
-// Landing Pages Data
+// Projetos Data
 const landingPages = [
   {
     id: 1,
@@ -6,7 +6,7 @@ const landingPages = [
     category: "ecommerce",
     categories: ["E-commerce", "Fitness"],
     description: "Landing page moderna para produtos de academia com design profissional e foco em conversão.",
-    link: "./lps/lp-gym/index.html",
+    link: "https://lp-gym-iota.vercel.app/",
     badge: "Novo",
     color: "#ff6b35",
     image: "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
@@ -81,7 +81,7 @@ function renderStats() {
   statsContainer.innerHTML = `
     <div class="stat-item">
       <span class="stat-number">${totalLPs}</span>
-      <span class="stat-label">Landing Pages</span>
+      <span class="stat-label">Projetos</span>
     </div>
     <div class="stat-item">
       <span class="stat-number">${categories}</span>
@@ -98,12 +98,12 @@ function renderStats() {
   `;
 }
 
-// Generate filters dynamically based on LP categories
+// Generate filters dynamically based on project categories
 function renderFilters() {
   const filtersContainer = document.querySelector(".filters");
   if (!filtersContainer) return;
 
-  // Get all unique categories from landing pages
+  // Get all unique categories from projects
   const allCategories = new Set();
   landingPages.forEach((lp) => {
     if (lp.category) {
@@ -181,7 +181,7 @@ function renderCards() {
 
 function updateCardsContent(grid, filtered) {
   if (filtered.length === 0) {
-    grid.innerHTML = '<div class="card-empty">Nenhuma landing page encontrada nesta categoria.</div>';
+    grid.innerHTML = '<div class="card-empty">Nenhum projeto encontrado nesta categoria.</div>';
     return;
   }
 

@@ -6,6 +6,8 @@
     </linearGradient>
   </defs>
   <rect width="100" height="100" rx="20" fill="url(#grad)"/>
-  <text x="50" y="70" font-family="Arial, sans-serif" font-size="60" font-weight="bold" fill="white" text-anchor="middle">LP</text>
+  <!-- Estilo de código com chaves -->
+  <text x="20" y="35" font-family="Monaco, 'Courier New', monospace" font-size="18" font-weight="bold" fill="white" opacity="0.3">{</text>
+  <text x="50" y="65" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="white" text-anchor="middle" letter-spacing="-2">VO</text>
+  <text x="80" y="65" font-family="Monaco, 'Courier New', monospace" font-size="18" font-weight="bold" fill="white" opacity="0.3">}</text>
 </svg>
-
